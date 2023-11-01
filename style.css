@@ -1,0 +1,157 @@
+*{  margin: 0;
+    font-family:sans-serif;
+}
+
+@font-face {
+    font-family: topfont;
+    src: url(Poppins-1/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: bottomfont;
+    src: url(Poppins-1/Poppins-Regular.ttf);
+}
+
+*{
+    font-family: bottomfont;
+}
+
+* h1{
+    font-family: topfont;
+}
+
+.menuf{background-color: white;
+    height:115px;
+    
+            
+}
+
+.menu{background-color: #058e96ff;
+    color: white;
+    height: 115px;
+    align-items: center;                
+    display: flex; 
+    position: fixed;
+    width:100%;
+    padding-left: 20px;
+    font-size: x-large;
+    
+}
+
+.ul{
+    display: inline-block;
+    list-style-type: none;
+ 
+}
+
+.li, a{
+    display: inline; 
+    padding: 23 25;
+    color:white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .produtosoff{
+        width: 150px;
+        height: 50px;
+        border: 0px solid #333;
+        margin: 0 auto;
+        position: relative;
+        margin-left: 1000px;
+        margin-top: 55px;
+        bottom: 12px;
+
+    }
+
+    .contatooff{
+        width: 150px;
+        height: 50px;
+        bottom: 65px;
+        border: 0px solid #333;
+        margin: 0 auto;
+        position: relative;
+        margin-left: 1300px;
+
+    }
+
+
+
+    #titleP h1{
+        bottom: 15px;
+        position: absolute;
+        padding-left: 40px;
+    }
+
+    #menuP li{
+        bottom: -10px;
+        position: absolute;
+        padding-left: 4px;
+        
+    }
+
+    #menuP ul{
+        bottom: -10px;
+        position: absolute;
+        display: inline;
+        padding-left: 4px;
+    }
+
+    .rodape{background-color: #333; 
+        height: 100px;
+        padding: 30px;
+        color: #ffffff;
+
+        
+    }
+
+    .li:hover{
+        font-size: xx-large;
+        transition: all 500ms ease-out;
+        
+    }
+
+.container{
+    display: flex;
+    width: 100%;
+    height:calc(100vh - 115px) ;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 100%;
+}
+ 
+.select-image{
+    max-width: 700px;
+}
+.select-image img{
+    width: 100%;
+    border-radius: 6px;
+}
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-side p{
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+}
+.right-side h4{
+    color: rgb(75, 192, 192);
+}
+.price{
+    font-size: 18px;
+    font-weight: 700;
+}
